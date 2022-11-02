@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+header {
+    background-image: url(../html/assets/img/header/cyberpunk-city-4-3440×1440.jpg);
+    background-size: 100%, 100%;
+    filter: saturate(20%);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+
+
+
+body div a:hover {
+background: linear-gradient (-90,rgba(239, 232, 232, 0.815) rgba(249, 231, 231, 0.733)33);
+}
+
+#nav { 
+    text-decoration: none;
+    margin: 0.5em;
+    color:rgba(229, 229, 229, 0.954);
+    font-size: 1.5em;
+    font-family: Oswald, sans-serif;
+    
+    
+}
+li {
+
+    display: inline-block;
+   
+}
+
+
+#boxmenu{
+    background: linear-gradient(-90deg, #9e0000, #ff0202);
+    padding: 1em;
+}
+
+nav ul li {
+    border: 0.15em solid rgb(224, 224, 224);
+   margin-left: 3em;
+   
+
+}
+
+nav ul li {
+    border: 0.15em solid rgb(224, 224, 224);
+   margin-left: 3em;
+   
+
+}
+
+footer {
+    background: linear-gradient(-180deg, #ff0202, #a31111);
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+}
+    
+
+footer a { 
+    color:rgba(229, 229, 229, 0.954);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Oswald, sans-serif;
+    border: 0.15em solid rgb(87, 0, 0);   
+}
+
+#nav:hover { 
+    color: rgb(87, 0, 0);
+    border: 0.15em solid rgb(87, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-family: Lobster, sans-serif;
+    background: linear-gradient(-90deg,#ca2323 0%,#ce0000 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.25em ridge red;
+    margin: 0;
+}
+
+h2 {
+    text-align: left;
+    font-family: Lobster, sans-serif;
+    background: linear-gradient(-90deg,#d75555 0%,#cf2f2f 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+
+ul {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+header a img {
+    border-radius: 50%;
+    border: 0.35em solid rgba(229, 229, 229, 0.954);
+}
+
+p {
+    margin-left: 0.75em;
+}
+
+
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header:hover {
+    filter: saturate(100%);
+    
+
+}
+
+
+/*filter: blur(8px);
+transition: filter 0.3s;*/
